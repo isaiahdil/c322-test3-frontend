@@ -1,10 +1,11 @@
 const mode = 0;
 
 const host_local = "http://localhost:8080";
-const host_remote = "https://ducks-service-???.onrender.com";
+const host_remote = "https://test3-latest-ttbz.onrender.com";
 
 function getHost() {
-    return (mode == 0) ? host_local : host_remote;
+   // return (mode == 0) ? host_local : host_remote;
+   return host_remote
 }
 
 function isLoggedIn() {
